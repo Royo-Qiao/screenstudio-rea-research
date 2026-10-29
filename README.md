@@ -1,5 +1,8 @@
 # Screen Studio reverse engineering with REA
 
+[![Offline tool checks](https://github.com/Royo-Qiao/screenstudio-rea-research/actions/workflows/checks.yml/badge.svg)](https://github.com/Royo-Qiao/screenstudio-rea-research/actions/workflows/checks.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Read-only tools and an evidence-led case study of Screen Studio **3.7.3-4540** on
 Apple Silicon macOS. Inspect an Electron app bundle, count native recording events
 without exposing keystrokes, and verify that an exported video fully decodes.

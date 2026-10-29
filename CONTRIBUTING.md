@@ -12,3 +12,5 @@ Keep static declarations, runtime behavior, human feedback and unknowns separate
 Do not generalize one tested system into a supported range or call a valid media
 file proof of the native recording path. New format support needs a representative
 synthetic fixture and a test that rejects malformed data.
+
+Please follow the [community conduct](CODE_OF_CONDUCT.md).
