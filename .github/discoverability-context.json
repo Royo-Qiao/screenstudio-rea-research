@@ -1,0 +1,17 @@
+{
+  "summary": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.",
+  "audience": "Developers and coding-agent operators studying macOS Electron/native recording workflows.",
+  "problem": "A successful inspection or export-complete log alone does not prove native capture, valid media or working authorization.",
+  "differentiator": "Explicit evidence levels plus reusable privacy-preserving inspection and full-decode validation tools.",
+  "goal": "Help readers reproduce file inspections and validate their own licensed recording/export workflow.",
+  "project_type": "cli",
+  "queries": [
+    "\"Screen Studio\" REA in:readme",
+    "\"Electron\" \"ASAR\" \"permissions\" in:readme",
+    "\"screen recording\" \"export\" \"validation\" in:readme"
+  ],
+  "channels": [
+    "GitHub repository",
+    "X article draft"
+  ]
+}

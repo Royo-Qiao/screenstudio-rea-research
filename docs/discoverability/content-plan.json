@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "mode": "local-content-plan",
+  "network_used": false,
+  "documents_sampled": 11,
+  "queries": [
+    {
+      "query": "Screen Studio reverse engineering",
+      "status": "lexical-evidence",
+      "evidence": [
+        {
+          "path": "README.md",
+          "line": 1,
+          "matched_terms": [
+            "screen",
+            "studio",
+            "reverse",
+            "engineering"
+          ],
+          "term_coverage": 1.0
+        },
+        {
+          "path": "README.md",
+          "line": 3,
+          "matched_terms": [
+            "screen",
+            "studio"
+          ],
+          "term_coverage": 0.5
+        },
+        {
+          "path": "README.md",
+          "line": 9,
+          "matched_terms": [
+            "screen",
+            "studio"
+          ],
+          "term_coverage": 0.5
+        }
+      ],
+      "editorial_action": "Read the cited passages and check whether they answer this question; add missing steps and limits.",
+      "github_readme_query": "Screen Studio reverse engineering in:readme"
+    },
+    {
+      "query": "Electron ASAR executable permissions",
+      "status": "lexical-evidence",
+      "evidence": [
+        {
+          "path": "docs/discoverability/x-article.zh-CN.md",
+          "line": 9,
+          "matched_terms": [
+            "electron",
+            "asar"
+          ],
+          "term_coverage": 0.5
+        },
+        {
+          "path": "docs/evidence.md",
+          "line": 24,
+          "matched_terms": [
+            "electron",
+            "asar"
+          ],
+          "term_coverage": 0.5
+        },
+        {
+          "path": "README.md",
+          "line": 4,
+          "matched_terms": [
+            "electron"
+          ],
+          "term_coverage": 0.25
+        }
+      ],
+      "editorial_action": "Read the cited passages and check whether they answer this question; add missing steps and limits.",
+      "github_readme_query": "Electron ASAR executable permissions in:readme"
+    },
+    {
+      "query": "native screen recording export verification",
+      "status": "lexical-evidence",
+      "evidence": [
+        {
+          "path": "README.md",
+          "line": 8,
+          "matched_terms": [
+            "native",
+            "recording",
+            "export"
+          ],
+          "term_coverage": 0.6
+        },
+        {
+          "path": "README.md",
+          "line": 16,
+          "matched_terms": [
+            "native",
+            "recording",
+            "export"
+          ],
+          "term_coverage": 0.6
+        },
+        {
+          "path": "SKILL.md",
+          "line": 3,
+          "matched_terms": [
+            "native",
+            "screen",
+            "export"
+          ],
+          "term_coverage": 0.6
+        }
+      ],
+      "editorial_action": "Read the cited passages and check whether they answer this question; add missing steps and limits.",
+      "github_readme_query": "native screen recording export verification in:readme"
+    },
+    {
+      "query": "Screen Studio 原生录制 导出 验证",
+      "status": "lexical-evidence",
+      "evidence": [
+        {
+          "path": "docs/discoverability/x-article.zh-CN.md",
+          "line": 1,
+          "matched_terms": [
+            "screen",
+            "studio",
+            "原生录制",
+            "导出",
+            "验证"
+          ],
+          "term_coverage": 1.0
+        },
+        {
+          "path": "README.zh-CN.md",
+          "line": 1,
+          "matched_terms": [
+            "screen",
+            "studio",
+            "原生录制",
+            "导出"
+          ],
+          "term_coverage": 0.8
+        },
+        {
+          "path": "docs/discoverability/x-article.zh-CN.md",
+          "line": 7,
+          "matched_terms": [
+            "screen",
+            "studio",
+            "原生录制",
+            "导出"
+          ],
+          "term_coverage": 0.8
+        }
+      ],
+      "editorial_action": "Read the cited passages and check whether they answer this question; add missing steps and limits.",
+      "github_readme_query": "Screen Studio 原生录制 导出 验证 in:readme"
+    }
+  ],
+  "surfaces": [
+    {
+      "surface": "github",
+      "status": "draft",
+      "action": "Use accurate name, description and topics; README searches require in:readme."
+    },
+    {
+      "surface": "google",
+      "status": "unobserved",
+      "action": "Write original answers with real evidence. A public repository does not prove indexing or ranking."
+    },
+    {
+      "surface": "owned-site",
+      "status": "unobserved",
+      "action": "If the user controls a Pages site or domain, separately verify a Search Console website property."
+    },
+    {
+      "surface": "x",
+      "status": "draft-only",
+      "action": "Draft an experience-based article linking to the repository. X platform properties are rolling out; eligibility and Google-side data must be checked in Search Console."
+    }
+  ],
+  "sources": {
+    "github_search": "https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories",
+    "helpful_content": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "platform_properties": "https://support.google.com/webmasters/answer/17148418"
+  },
+  "limitations": [
+    "Literal term overlap is an editorial aid, not semantic coverage, search volume, ranking, or validation of a capability.",
+    "Continuous Chinese text uses literal spans; split long questions into useful phrases for editorial matching.",
+    "Only root Markdown and docs/**/*.md were sampled; no target program was run.",
+    "GitHub is not listed among the currently documented Search Console platform properties; no property was verified.",
+    "Nothing was published or scheduled; there is no keyword-density or word-count target."
+  ]
+}

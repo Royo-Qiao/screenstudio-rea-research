@@ -1,0 +1,36 @@
+{
+  "kind": "curated failure record, not canonical evidence",
+  "observed_date": "2026-10-29",
+  "artifact": "Contents/Resources/app/dist-electron/index.js",
+  "main_js_sha256": "ec196d54e0217cbeb2d19504457975cbe57540481052bf60ed5e60a61de2b1b2",
+  "attempts": [
+    {
+      "operation": "analyze_javascript_application",
+      "status": "provider_timeout",
+      "analysis_timeout_ms": 60000,
+      "max_semantic_nodes": 5000,
+      "partial_evidence_id": "ev_990350efa66c86d3519159bbfeaed56f3ba709711bf393b6b844529821ab338d",
+      "source_selection": {
+        "requested_paths": [
+          "dist-electron/index.js"
+        ],
+        "unselected_files": 3694
+      }
+    },
+    {
+      "operation": "analyze_javascript_application",
+      "status": "provider_timeout",
+      "analysis_timeout_ms": 180000,
+      "max_semantic_nodes": 1000,
+      "partial_evidence_id": "ev_de6059d892ad665eeef790212545f6424579168bf8962ec9be316dd89fe8b0f4",
+      "source_selection": {
+        "requested_paths": [
+          "dist-electron/index.js"
+        ],
+        "unselected_files": 3694
+      }
+    }
+  ],
+  "conclusion": "Limited main-JavaScript graph analysis did not complete in either bounded attempt. No full JS graph, native function decompilation or runtime conclusion is claimed.",
+  "privacy": "Raw partial graphs and artifact source stay private; only operation status and selection limits are excerpted."
+}

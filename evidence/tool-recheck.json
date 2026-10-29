@@ -1,0 +1,58 @@
+{
+  "observed_date": "2026-10-29",
+  "scope": "Fresh read-only tool runs against pre-existing local artifacts; no new recording or application lifecycle changes",
+  "app_inspection": {
+    "ok": true,
+    "bundle_version": "3.7.3-4540",
+    "bundle_build": "3.7.3-4540",
+    "bundle_minimum_macos_declared": "12.0",
+    "executable_sha256": "d3ce5c479474b72c95748a6e402e7352ea59ca5fbdf40bc927732439bdce6d2d",
+    "executable_slices": [
+      {
+        "architecture": "arm64",
+        "cpu_subtype": 0,
+        "minimum_macos_declared": "12.0.0",
+        "sdk_declared": "26.0.0"
+      }
+    ],
+    "compatibility_tested": false,
+    "target_app_executed": false,
+    "resource_layout": "expanded",
+    "main_js_sha256": "ec196d54e0217cbeb2d19504457975cbe57540481052bf60ed5e60a61de2b1b2",
+    "asar_sha256": null,
+    "runtime_node_slices": [
+      {
+        "architecture": "arm64",
+        "cpu_subtype": 0,
+        "minimum_macos_declared": "13.5.0",
+        "sdk_declared": "15.0.0"
+      }
+    ],
+    "runtime_node_sha256": "b6fb419f0f43bb2fbca273700294dd2f3b685a64b60e8417c295f47646a70e4a",
+    "signature_verification": "passed"
+  },
+  "existing_native_export": {
+    "ok": true,
+    "bytes": 1386307,
+    "sha256": "fbf1708df2788dc784febbfe4afa8b9247067ca263f7ec637e5b3ab6f787871b",
+    "duration_seconds": 55.616667,
+    "video_codec": "h264",
+    "width": 1104,
+    "height": 720,
+    "average_frame_rate": "60/1",
+    "decoded_primary_video_frames": 3337,
+    "full_decode_exit_code": 0,
+    "full_decode_errors": 0,
+    "native_recording_proven": false,
+    "scope": "File validity only; recording provenance and visual effects require separate evidence"
+  },
+  "human_project_statistics": {
+    "mousemoves": 938,
+    "mouseclicks": 15,
+    "keystrokes": 10,
+    "zoom_ranges": 1,
+    "zoom_is_system_false": 1,
+    "automatic_zoom_proven": false
+  },
+  "privacy": "Curated aggregate results only. App, project, video, paths and raw captured events are not distributed."
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+*.app/
+*.dmg
+*.zip
+*.mp4
+*.mov
+*.screenstudio/
+Data/
+state/
+Exports/
+*.jwt
+.env
+traffic-history/

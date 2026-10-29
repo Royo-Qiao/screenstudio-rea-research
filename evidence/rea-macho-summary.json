@@ -1,0 +1,67 @@
+{
+  "kind": "analyst-selected-excerpt",
+  "canonical_evidence_unmodified": false,
+  "source_evidence_id": "ev_89c005090e972863483487e93c6e25ec036442873256557639baed7caea9c1c0",
+  "operation": "inspect_macho",
+  "artifact": "Screen Studio.app/Contents/MacOS/Screen Studio",
+  "artifact_state": "Locally repackaged/ad-hoc signed copy; not original vendor distribution digest",
+  "sha256": "d3ce5c479474b72c95748a6e402e7352ea59ca5fbdf40bc927732439bdce6d2d",
+  "architecture": "arm64",
+  "selected_architecture": {
+    "name": "arm64",
+    "container_file_offset": 0
+  },
+  "build_metadata": {
+    "items": [
+      {
+        "platform": "MACOS",
+        "minimum_os": "12.0",
+        "sdk": "26.0",
+        "tools": [
+          {
+            "name": "LLD",
+            "version": "22.0"
+          }
+        ]
+      }
+    ],
+    "total": 1,
+    "exhaustive": true,
+    "limitations": []
+  },
+  "dependencies": {
+    "items": [
+      {
+        "path": "@rpath/Electron Framework.framework/Electron Framework",
+        "kind": "LC_LOAD_DYLIB",
+        "current_version": "0.0.0",
+        "compatibility_version": "0.0.0"
+      },
+      {
+        "path": "/usr/lib/libSystem.B.dylib",
+        "kind": "LC_LOAD_DYLIB",
+        "current_version": "1356.0.0",
+        "compatibility_version": "1.0.0"
+      }
+    ],
+    "total": 2,
+    "exhaustive": true,
+    "limitations": []
+  },
+  "entrypoints": {
+    "items": [
+      {
+        "file_offset": 1120
+      }
+    ],
+    "total": 1,
+    "exhaustive": true,
+    "limitations": []
+  },
+  "limitations": [
+    "Imports and exports combine dyld_info and nm; stripped or toolchain-hidden symbols may be absent.",
+    "vtool output is retained as provenance but only otool build metadata is normalized.",
+    "Static Mach-O inspection only; no function decompilation, runtime recording or activation was observed by this operation.",
+    "Private local paths and native symbol inventories omitted; this excerpt cannot substitute for the retained canonical Evidence record."
+  ]
+}

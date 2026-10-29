@@ -1,0 +1,25 @@
+{
+  "kind": "curated excerpt from a REA static inspection; not the canonical evidence bundle",
+  "observed_date": "2026-10-29",
+  "operation": "inspect_electron_fuses",
+  "evidence_id": "ev_9383413ee475c1c4606c72959192f226eefb0da191a1b7057b4f33cae03de880",
+  "artifact": "Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+  "sha256": "eb5b8a7aa29db80a603861b800369f30aa059372c6faf44c6342de568d2c4f8d",
+  "architecture": "arm64",
+  "bytes": 173311920,
+  "sentinel_count": 1,
+  "sentinel_offset": 153639062,
+  "wire_version": 1,
+  "fuse_count": 8,
+  "fuses": {
+    "RunAsNode": "enabled",
+    "CookieEncryption": "disabled",
+    "NodeOptions": "enabled",
+    "NodeCliInspect": "enabled",
+    "EmbeddedAsarIntegrity": "disabled",
+    "OnlyLoadAppFromAsar": "disabled",
+    "BrowserV8Snapshot": "disabled",
+    "FileProtocolExtraPrivileges": "enabled"
+  },
+  "limits": "Static fuse bytes do not prove inspector reachability, runtime authorization, native capture or export behavior"
+}

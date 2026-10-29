@@ -1,0 +1,291 @@
+{
+  "schema_version": 2,
+  "rubric_version": "readiness-v2",
+  "repo": "local:screenstudio-rea-research",
+  "generated_at_utc": "2026-10-29T13:28:08+00:00",
+  "input_source": "local-offline",
+  "local_evidence": {
+    "files": {
+      "readme": {
+        "status": "present",
+        "path": "README.md",
+        "sha256": "fb95bc11979642350f0b2988644fbd73472b012ed3c9cd3fed96e6b4b7431448"
+      },
+      "license": {
+        "status": "present",
+        "path": "LICENSE",
+        "sha256": "5322f1f03b0535c4a40f755e94753b5887f1dd5048c4e50d84996d3b5ad1e5c8"
+      },
+      "contributing": {
+        "status": "present",
+        "path": "CONTRIBUTING.md",
+        "sha256": "a7822b2396e46fa7818e7bc765dc3b4c22698c75dec004ccb9592ca0a6cd6622"
+      },
+      "code_of_conduct": {
+        "status": "missing",
+        "path": null
+      },
+      "security_policy": {
+        "status": "present",
+        "path": "SECURITY.md",
+        "sha256": "fe0dfec09409efe3edf8eda62250a4a2cefde1bb0d040dcc4516a1a7a7640d68"
+      },
+      "issue_template": {
+        "status": "missing",
+        "path": null
+      }
+    }
+  },
+  "auth_context": {
+    "mode": "offline",
+    "token_present": false,
+    "gh_available": null,
+    "gh_authenticated": null
+  },
+  "overall": {
+    "score": null,
+    "rating": "Unknown",
+    "weights": {
+      "metadata": 0.35,
+      "readme": 0.4,
+      "topic_structure": 0.25
+    },
+    "evaluated_weight": 0.4,
+    "status": "partial"
+  },
+  "module_scores": {
+    "metadata": null,
+    "readme": 100,
+    "topic_structure": null
+  },
+  "metadata": {
+    "name": "screenstudio-rea-research"
+  },
+  "audit": {
+    "status": "partial",
+    "coverage": {
+      "metadata": "unavailable",
+      "topics": "unavailable",
+      "community": "local-only"
+    },
+    "metadata": {
+      "name": "screenstudio-rea-research"
+    },
+    "community_profile": {},
+    "findings": [
+      {
+        "area": "Local code_of_conduct",
+        "severity": "Info",
+        "finding": "No local code_of_conduct file found in the checked locations.",
+        "evidence": "Explicit local file inventory; remote/community defaults were not inspected.",
+        "fix": "Review whether this project needs a code_of_conduct file before publishing.",
+        "confidence": "Confirmed",
+        "evidence_tier": "local-file-observation"
+      },
+      {
+        "area": "Local issue_template",
+        "severity": "Info",
+        "finding": "No local issue_template file found in the checked locations.",
+        "evidence": "Explicit local file inventory; remote/community defaults were not inspected.",
+        "fix": "Review whether this project needs a issue_template file before publishing.",
+        "confidence": "Confirmed",
+        "evidence_tier": "local-file-observation"
+      }
+    ],
+    "summary": {
+      "score": null,
+      "rating": "Unknown",
+      "critical": 0,
+      "warning": 0
+    },
+    "limitations": [
+      "Offline local snapshot only; no GitHub settings, topics, search, traffic, or remote defaults were observed.",
+      "Local file presence is not verification of legal terms, community policy quality, or runnable commands."
+    ]
+  },
+  "readme": {
+    "status": "ok",
+    "project_type": "cli",
+    "coverage": {
+      "structure": "ok",
+      "command_execution": "not-run"
+    },
+    "limitations": [
+      "README lint checks documented structure; commands were not executed or proven correct."
+    ],
+    "summary": {
+      "score": 100,
+      "rating": "Excellent"
+    },
+    "category_scores": {
+      "opening_clarity": 20,
+      "information_architecture": 15,
+      "install_quickstart": 20,
+      "proof_visuals": 15,
+      "badges": 10,
+      "cta_community": 10,
+      "readability": 10
+    },
+    "metrics": {
+      "word_count": 714,
+      "commands_executed": false,
+      "heading_count": 8,
+      "h1_count": 1,
+      "code_block_count": 3,
+      "content_image_count": 0,
+      "gif_count": 0,
+      "badge_count": 0,
+      "images_missing_alt": 0,
+      "first_heading_outline": [
+        "H1: Screen Studio reverse engineering with REA",
+        "H2: What was actually verified?",
+        "H2: Quickstart",
+        "H2: Research path",
+        "H2: Why the checks matter",
+        "H2: Compatibility",
+        "H2: Development",
+        "H2: Scope and ownership"
+      ]
+    },
+    "findings": [
+      {
+        "category": "Badges",
+        "severity": "Info",
+        "finding": "No status badges found.",
+        "evidence": "No shields.io/badgen/workflow-badge images detected.",
+        "fix": "Add build-status + license badges at the top; they signal maintenance at a glance.",
+        "confidence": "Confirmed",
+        "evidence_tier": "heuristic"
+      }
+    ],
+    "source": {
+      "kind": "local-file",
+      "path": "README.md"
+    }
+  },
+  "project_context": {
+    "summary": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.",
+    "audience": "Developers and coding-agent operators studying macOS Electron/native recording workflows.",
+    "problem": "A successful inspection or export-complete log alone does not prove native capture, valid media or working authorization.",
+    "differentiator": "Explicit evidence levels plus reusable privacy-preserving inspection and full-decode validation tools.",
+    "goal": "Help readers reproduce file inspections and validate their own licensed recording/export workflow.",
+    "summary_source": "user-context",
+    "project_type": "cli",
+    "project_type_source": "explicit",
+    "queries": [
+      "\"Screen Studio\" REA in:readme",
+      "\"Electron\" \"ASAR\" \"permissions\" in:readme",
+      "\"screen recording\" \"export\" \"validation\" in:readme"
+    ],
+    "channels": [
+      "GitHub repository",
+      "X article draft"
+    ],
+    "facts": [],
+    "evidence": [
+      {
+        "source": "user-context",
+        "text": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation."
+      }
+    ],
+    "limitations": [
+      "Project type is a selectable heuristic; user context is not independently verified."
+    ],
+    "documented_examples": [
+      {
+        "language": "bash",
+        "content": "git clone https://github.com/Royo-Qiao/screenstudio-rea-research.git\ncd screenstudio-rea-research\n\n# Reads declarations and hashes; does not launch or modify the app.\npython3 scripts/inspect_app.py \"/path/to/Screen Studio.app\"\n\n# Prints counts only; does not emit recorded keys, window titles or coordinates.\npython3 scripts/project_stats.py \"/path/to/Demo.screenstudio\"\n\n# Checks metadata, decodes every video/audio stream, and hashes the stable file.\npython3 scripts/verify_export.py \"/path/to/export.mp4\"",
+        "source": "README",
+        "executed": false
+      },
+      {
+        "language": "json",
+        "content": "{\n  \"ok\": true,\n  \"video_codec\": \"h264\",\n  \"width\": 1104,\n  \"height\": 720,\n  \"decoded_primary_video_frames\": 3337,\n  \"full_decode_exit_code\": 0,\n  \"native_recording_proven\": false\n}",
+        "source": "README",
+        "executed": false
+      },
+      {
+        "language": "bash",
+        "content": "python3 -m unittest discover -s tests -v",
+        "source": "README",
+        "executed": false
+      }
+    ]
+  },
+  "topics": {
+    "status": "unavailable",
+    "coverage": {},
+    "limitations": [
+      "Offline audit: GitHub metadata, topics, search, and list checks were not requested."
+    ],
+    "per_topic": [],
+    "candidate_topics": {
+      "candidates": []
+    },
+    "ranking_score": null,
+    "structure_score": null,
+    "structure_notes": [],
+    "our_stars": null
+  },
+  "search_benchmark": [],
+  "benchmark_queries": [
+    "\"Screen Studio\" REA in:readme",
+    "\"Electron\" \"ASAR\" \"permissions\" in:readme",
+    "\"screen recording\" \"export\" \"validation\" in:readme"
+  ],
+  "query_source": "provided",
+  "comparison": null,
+  "awesome": {
+    "status": "unavailable",
+    "coverage": {},
+    "limitations": [
+      "Offline audit: GitHub metadata, topics, search, and list checks were not requested."
+    ],
+    "lists": [],
+    "terms_used": [],
+    "total_matches": null,
+    "score": null
+  },
+  "traffic": null,
+  "suggestions": {
+    "description": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.",
+    "topics": [],
+    "topic_notes": [
+      "保留原有有效标签；拥挤、未分析或查询失败均不构成删除理由。"
+    ],
+    "readme_opening": "# screenstudio-rea-research\n\nREA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.\n"
+  },
+  "promotion": {
+    "goal": "Help readers reproduce file inspections and validate their own licensed recording/export workflow.",
+    "drafts": [],
+    "materials": [
+      "核对项目简介与实际能力",
+      "准备一个真实输入与预期输出",
+      "确认快速开始可用"
+    ],
+    "review": [
+      {
+        "day": 0,
+        "action": "记录基线、修复资料并准备素材"
+      },
+      {
+        "day": 7,
+        "action": "复查访问、clone、有效反馈及已提交清单状态"
+      },
+      {
+        "day": 14,
+        "action": "对比同口径搜索样本与流量；记录变化，避免自动归因"
+      }
+    ],
+    "limitations": [
+      "These are drafts and a review plan; nothing has been published or scheduled."
+    ]
+  },
+  "limitations": [
+    "Offline local snapshot only; no GitHub settings, topics, search, traffic, or remote defaults were observed.",
+    "Local file presence is not verification of legal terms, community policy quality, or runnable commands.",
+    "README lint checks documented structure; commands were not executed or proven correct.",
+    "Offline audit: GitHub metadata, topics, search, and list checks were not requested.",
+    "Project type is a selectable heuristic; user context is not independently verified."
+  ]
+}

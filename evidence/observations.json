@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "kind": "manually curated de-identified historical observations; not raw tool evidence",
+  "observed_date": "2026-10-29",
+  "target": {
+    "name": "Screen Studio",
+    "version": "3.7.3-4540",
+    "architecture": "arm64",
+    "tested_macos": "26.5.2",
+    "app_minimum_macos_declared": "12.0",
+    "experimental_runtime_minimum_macos_declared": "13.5",
+    "main_js_sha256": "ec196d54e0217cbeb2d19504457975cbe57540481052bf60ed5e60a61de2b1b2"
+  },
+  "native_capture": {
+    "native_project_saved": true,
+    "project_reopened_after_application_restart": true,
+    "edited_and_exported": true,
+    "automated_input_counts": {"mouse_positions": 9, "mouse_clicks": 0, "keystrokes": 0},
+    "manual_zoom_factor": 2,
+    "duplicate_cursor_observed": true,
+    "trim_attempt_effective": false
+  },
+  "native_export": {
+    "codec": "h264", "width": 1104, "height": 720, "fps": 60,
+    "frames": 3337, "duration_seconds": 55.616667, "bytes": 1386307,
+    "full_decode_exit_code": 0,
+    "sha256": "fbf1708df2788dc784febbfe4afa8b9247067ca263f7ec637e5b3ab6f787871b"
+  },
+  "later_human_acceptance": {
+    "mouse_positions": 938, "mouse_clicks": 15, "keystrokes": 10,
+    "zoom_ranges": 1, "zoom_is_system": false,
+    "automatic_zoom_proven": false,
+    "user_report": "Functionality was normal"
+  },
+  "networked_authorization": {
+    "result": "failed", "experimental_state_rejected_and_cleared": true,
+    "export_returned_to_activation_ui": true, "permanent_activation_proven": false
+  },
+  "packaged_copy": {
+    "signature_type": "local ad-hoc",
+    "launch_and_restoration_checked": true,
+    "full_native_capture_repeated_after_final_signing": false,
+    "distributed_in_this_repository": false
+  },
+  "unverified": [
+    "Full macOS reboot", "Other macOS versions and Intel hardware",
+    "Complete native decompilation", "Future app versions",
+    "Objective visual equivalence", "Online authorization stability"
+  ],
+  "public_artifact_limits": "No private media, projects, app binaries, original logs or raw REA ledger are included"
+}
