@@ -1,0 +1,48 @@
+{
+  "source": "github:Royo-Qiao/screenstudio-rea-research",
+  "intents": [],
+  "status": "ok",
+  "project_type": "cli",
+  "coverage": {
+    "structure": "ok",
+    "command_execution": "not-run"
+  },
+  "limitations": [
+    "README lint checks documented structure; commands were not executed or proven correct."
+  ],
+  "summary": {
+    "score": 100,
+    "rating": "Excellent"
+  },
+  "category_scores": {
+    "opening_clarity": 20,
+    "information_architecture": 15,
+    "install_quickstart": 20,
+    "proof_visuals": 15,
+    "badges": 10,
+    "cta_community": 10,
+    "readability": 10
+  },
+  "metrics": {
+    "word_count": 714,
+    "commands_executed": false,
+    "heading_count": 8,
+    "h1_count": 1,
+    "code_block_count": 3,
+    "content_image_count": 0,
+    "gif_count": 0,
+    "badge_count": 2,
+    "images_missing_alt": 0,
+    "first_heading_outline": [
+      "H1: Screen Studio reverse engineering with REA",
+      "H2: What was actually verified?",
+      "H2: Quickstart",
+      "H2: Research path",
+      "H2: Why the checks matter",
+      "H2: Compatibility",
+      "H2: Development",
+      "H2: Scope and ownership"
+    ]
+  },
+  "findings": []
+}

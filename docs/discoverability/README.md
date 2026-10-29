@@ -7,6 +7,8 @@ The public upstream may not yet contain these local changes.
 - [Local audit](local-audit.json) reads current repository files with no GitHub access.
 - [Content intent map](content-plan.json) maps audience phrases to real relative document lines.
 - [X article draft](x-article.zh-CN.md) is an editorial draft and has not been posted.
+- [Publication baseline](publication-baseline.json) retains the first online collector observation, before the community-file follow-up.
+- [Applied changes and follow-up](publication-review.md) records the fixes and remaining limits.
 - The context used by the collector is [.github/discoverability-context.json](../../.github/discoverability-context.json).
 
 README purpose, tool commands, machine-readable evidence and the English/Chinese

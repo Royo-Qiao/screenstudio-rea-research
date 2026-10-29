@@ -2,14 +2,14 @@
   "schema_version": 2,
   "rubric_version": "readiness-v2",
   "repo": "local:screenstudio-rea-research",
-  "generated_at_utc": "2026-10-29T13:28:08+00:00",
+  "generated_at_utc": "2026-10-29T13:36:00+00:00",
   "input_source": "local-offline",
   "local_evidence": {
     "files": {
       "readme": {
         "status": "present",
         "path": "README.md",
-        "sha256": "fb95bc11979642350f0b2988644fbd73472b012ed3c9cd3fed96e6b4b7431448"
+        "sha256": "bafcf387af251c813ce1e52ed9ab1cb8e51e6a8c76c98f752c91260cc0f12264"
       },
       "license": {
         "status": "present",
@@ -19,11 +19,12 @@
       "contributing": {
         "status": "present",
         "path": "CONTRIBUTING.md",
-        "sha256": "a7822b2396e46fa7818e7bc765dc3b4c22698c75dec004ccb9592ca0a6cd6622"
+        "sha256": "81956d9f90e394ad7d7677a70421170c5e701cfefbbbb9c6425be691c2e4b8b9"
       },
       "code_of_conduct": {
-        "status": "missing",
-        "path": null
+        "status": "present",
+        "path": "CODE_OF_CONDUCT.md",
+        "sha256": "b6bae0e6530721fbb1dec67a9f7e49e82a939c2705409738e609b80a427d6fff"
       },
       "security_policy": {
         "status": "present",
@@ -31,8 +32,9 @@
         "sha256": "fe0dfec09409efe3edf8eda62250a4a2cefde1bb0d040dcc4516a1a7a7640d68"
       },
       "issue_template": {
-        "status": "missing",
-        "path": null
+        "status": "present",
+        "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "sha256": "6a76fbbf625c4dff880e2f849b4e932a5491afbf52d47a119990a1d2c2e5696e"
       }
     }
   },
@@ -72,26 +74,7 @@
       "name": "screenstudio-rea-research"
     },
     "community_profile": {},
-    "findings": [
-      {
-        "area": "Local code_of_conduct",
-        "severity": "Info",
-        "finding": "No local code_of_conduct file found in the checked locations.",
-        "evidence": "Explicit local file inventory; remote/community defaults were not inspected.",
-        "fix": "Review whether this project needs a code_of_conduct file before publishing.",
-        "confidence": "Confirmed",
-        "evidence_tier": "local-file-observation"
-      },
-      {
-        "area": "Local issue_template",
-        "severity": "Info",
-        "finding": "No local issue_template file found in the checked locations.",
-        "evidence": "Explicit local file inventory; remote/community defaults were not inspected.",
-        "fix": "Review whether this project needs a issue_template file before publishing.",
-        "confidence": "Confirmed",
-        "evidence_tier": "local-file-observation"
-      }
-    ],
+    "findings": [],
     "summary": {
       "score": null,
       "rating": "Unknown",
@@ -134,7 +117,7 @@
       "code_block_count": 3,
       "content_image_count": 0,
       "gif_count": 0,
-      "badge_count": 0,
+      "badge_count": 2,
       "images_missing_alt": 0,
       "first_heading_outline": [
         "H1: Screen Studio reverse engineering with REA",
@@ -147,17 +130,7 @@
         "H2: Scope and ownership"
       ]
     },
-    "findings": [
-      {
-        "category": "Badges",
-        "severity": "Info",
-        "finding": "No status badges found.",
-        "evidence": "No shields.io/badgen/workflow-badge images detected.",
-        "fix": "Add build-status + license badges at the top; they signal maintenance at a glance.",
-        "confidence": "Confirmed",
-        "evidence_tier": "heuristic"
-      }
-    ],
+    "findings": [],
     "source": {
       "kind": "local-file",
       "path": "README.md"

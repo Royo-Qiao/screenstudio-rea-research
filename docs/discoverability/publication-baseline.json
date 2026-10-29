@@ -1,0 +1,1810 @@
+{
+  "schema_version": 2,
+  "rubric_version": "readiness-v2",
+  "repo": "Royo-Qiao/screenstudio-rea-research",
+  "generated_at_utc": "2026-10-29T13:31:49+00:00",
+  "input_source": "github-api",
+  "local_evidence": null,
+  "auth_context": {
+    "token_present": true,
+    "gh_available": true,
+    "gh_authenticated": true,
+    "mode": "token"
+  },
+  "overall": {
+    "score": 94,
+    "rating": "Excellent",
+    "weights": {
+      "metadata": 0.35,
+      "readme": 0.4,
+      "topic_structure": 0.25
+    },
+    "evaluated_weight": 1.0,
+    "status": "ok"
+  },
+  "module_scores": {
+    "metadata": 84,
+    "readme": 100,
+    "topic_structure": 100
+  },
+  "metadata": {
+    "name": "screenstudio-rea-research",
+    "full_name": "Royo-Qiao/screenstudio-rea-research",
+    "description": "REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.",
+    "homepage": "",
+    "topics": [
+      "agent-skill",
+      "apple-silicon",
+      "arm64",
+      "electron",
+      "ffmpeg",
+      "mach-o",
+      "macos",
+      "python",
+      "rea",
+      "reverse-engineering",
+      "screen-recording",
+      "screen-studio",
+      "static-analysis",
+      "video-validation"
+    ],
+    "language": "Python",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "watchers_count": 0,
+    "open_issues_count": 0,
+    "pushed_at": "2026-10-29T13:28:24Z",
+    "created_at": "2026-10-29T13:28:17Z",
+    "default_branch": "main",
+    "license": "MIT",
+    "has_pages": false,
+    "social_preview_url": null
+  },
+  "audit": {
+    "repo": "Royo-Qiao/screenstudio-rea-research",
+    "auth_context": {
+      "token_present": true,
+      "gh_available": true,
+      "gh_authenticated": true,
+      "mode": "token"
+    },
+    "limitations": [],
+    "metadata": {
+      "name": "screenstudio-rea-research",
+      "full_name": "Royo-Qiao/screenstudio-rea-research",
+      "description": "REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.",
+      "homepage": "",
+      "topics": [
+        "agent-skill",
+        "apple-silicon",
+        "arm64",
+        "electron",
+        "ffmpeg",
+        "mach-o",
+        "macos",
+        "python",
+        "rea",
+        "reverse-engineering",
+        "screen-recording",
+        "screen-studio",
+        "static-analysis",
+        "video-validation"
+      ],
+      "language": "Python",
+      "archived": false,
+      "fork": false,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "open_issues_count": 0,
+      "pushed_at": "2026-10-29T13:28:24Z",
+      "created_at": "2026-10-29T13:28:17Z",
+      "default_branch": "main",
+      "license": "MIT",
+      "has_pages": false,
+      "social_preview_url": null
+    },
+    "community_profile": {
+      "health_percentage": 71,
+      "files": {
+        "code_of_conduct": null,
+        "code_of_conduct_file": null,
+        "contributing": {
+          "url": "https://api.github.com/repos/Royo-Qiao/screenstudio-rea-research/contents/CONTRIBUTING.md",
+          "html_url": "https://github.com/Royo-Qiao/screenstudio-rea-research/blob/main/CONTRIBUTING.md"
+        },
+        "issue_template": null,
+        "pull_request_template": null,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz",
+          "html_url": "https://github.com/Royo-Qiao/screenstudio-rea-research/blob/main/LICENSE"
+        },
+        "readme": {
+          "url": "https://api.github.com/repos/Royo-Qiao/screenstudio-rea-research/contents/README.md",
+          "html_url": "https://github.com/Royo-Qiao/screenstudio-rea-research/blob/main/README.md"
+        }
+      }
+    },
+    "findings": [
+      {
+        "area": "Metadata",
+        "severity": "Info",
+        "finding": "Homepage URL not set.",
+        "evidence": "`homepage` is empty.",
+        "fix": "Point homepage at docs/demo site if one exists — it renders in the About card.",
+        "confidence": "Confirmed",
+        "evidence_tier": "heuristic"
+      },
+      {
+        "area": "Trust",
+        "severity": "Warning",
+        "finding": "Community profile health is below baseline.",
+        "evidence": "GitHub community health: 71%.",
+        "fix": "Complete missing governance files below.",
+        "confidence": "Confirmed",
+        "evidence_tier": "heuristic"
+      },
+      {
+        "area": "Trust",
+        "severity": "Warning",
+        "finding": "Missing community file: code_of_conduct.",
+        "evidence": "community/profile `files.code_of_conduct` is null.",
+        "fix": "Add the `code_of_conduct` file (root or .github/).",
+        "confidence": "Confirmed",
+        "evidence_tier": "heuristic"
+      },
+      {
+        "area": "Trust",
+        "severity": "Info",
+        "finding": "Missing community file: issue_template.",
+        "evidence": "community/profile `files.issue_template` is null.",
+        "fix": "Add the `issue_template` file (root or .github/).",
+        "confidence": "Confirmed",
+        "evidence_tier": "heuristic"
+      }
+    ],
+    "status": "ok",
+    "coverage": {
+      "metadata": "ok",
+      "community": "ok",
+      "topics": "ok"
+    },
+    "summary": {
+      "score": 84,
+      "rating": "Good",
+      "critical": 0,
+      "warning": 2
+    },
+    "name_tokens": [
+      "rea",
+      "research",
+      "screenstudio"
+    ],
+    "description_tokens": [
+      "rea",
+      "reverse",
+      "engineering",
+      "case",
+      "study",
+      "of",
+      "screen",
+      "studio",
+      "on",
+      "apple",
+      "silicon",
+      "electron",
+      "mach",
+      "inspection",
+      "private",
+      "statistics",
+      "full",
+      "video",
+      "export",
+      "validation"
+    ]
+  },
+  "readme": {
+    "status": "ok",
+    "project_type": "cli",
+    "coverage": {
+      "structure": "ok",
+      "command_execution": "not-run"
+    },
+    "limitations": [
+      "README lint checks documented structure; commands were not executed or proven correct."
+    ],
+    "summary": {
+      "score": 100,
+      "rating": "Excellent"
+    },
+    "category_scores": {
+      "opening_clarity": 20,
+      "information_architecture": 15,
+      "install_quickstart": 20,
+      "proof_visuals": 15,
+      "badges": 10,
+      "cta_community": 10,
+      "readability": 10
+    },
+    "metrics": {
+      "word_count": 714,
+      "commands_executed": false,
+      "heading_count": 8,
+      "h1_count": 1,
+      "code_block_count": 3,
+      "content_image_count": 0,
+      "gif_count": 0,
+      "badge_count": 0,
+      "images_missing_alt": 0,
+      "first_heading_outline": [
+        "H1: Screen Studio reverse engineering with REA",
+        "H2: What was actually verified?",
+        "H2: Quickstart",
+        "H2: Research path",
+        "H2: Why the checks matter",
+        "H2: Compatibility",
+        "H2: Development",
+        "H2: Scope and ownership"
+      ]
+    },
+    "findings": [
+      {
+        "category": "Badges",
+        "severity": "Info",
+        "finding": "No status badges found.",
+        "evidence": "No shields.io/badgen/workflow-badge images detected.",
+        "fix": "Add build-status + license badges at the top; they signal maintenance at a glance.",
+        "confidence": "Confirmed",
+        "evidence_tier": "heuristic"
+      }
+    ]
+  },
+  "project_context": {
+    "summary": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.",
+    "audience": "Developers and coding-agent operators studying macOS Electron/native recording workflows.",
+    "problem": "A successful inspection or export-complete log alone does not prove native capture, valid media or working authorization.",
+    "differentiator": "Explicit evidence levels plus reusable privacy-preserving inspection and full-decode validation tools.",
+    "goal": "Help readers reproduce file inspections and validate their own licensed recording/export workflow.",
+    "summary_source": "user-context",
+    "project_type": "cli",
+    "project_type_source": "explicit",
+    "queries": [
+      "\"Screen Studio\" REA in:readme",
+      "\"Electron\" \"ASAR\" \"permissions\" in:readme",
+      "\"screen recording\" \"export\" \"validation\" in:readme"
+    ],
+    "channels": [
+      "GitHub repository",
+      "X article draft"
+    ],
+    "facts": [],
+    "evidence": [
+      {
+        "source": "user-context",
+        "text": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation."
+      }
+    ],
+    "limitations": [
+      "Project type is a selectable heuristic; user context is not independently verified."
+    ],
+    "documented_examples": [
+      {
+        "language": "bash",
+        "content": "git clone https://github.com/Royo-Qiao/screenstudio-rea-research.git\ncd screenstudio-rea-research\n\n# Reads declarations and hashes; does not launch or modify the app.\npython3 scripts/inspect_app.py \"/path/to/Screen Studio.app\"\n\n# Prints counts only; does not emit recorded keys, window titles or coordinates.\npython3 scripts/project_stats.py \"/path/to/Demo.screenstudio\"\n\n# Checks metadata, decodes every video/audio stream, and hashes the stable file.\npython3 scripts/verify_export.py \"/path/to/export.mp4\"",
+        "source": "README",
+        "executed": false
+      },
+      {
+        "language": "json",
+        "content": "{\n  \"ok\": true,\n  \"video_codec\": \"h264\",\n  \"width\": 1104,\n  \"height\": 720,\n  \"decoded_primary_video_frames\": 3337,\n  \"full_decode_exit_code\": 0,\n  \"native_recording_proven\": false\n}",
+        "source": "README",
+        "executed": false
+      },
+      {
+        "language": "bash",
+        "content": "python3 -m unittest discover -s tests -v",
+        "source": "README",
+        "executed": false
+      }
+    ]
+  },
+  "topics": {
+    "repo": "Royo-Qiao/screenstudio-rea-research",
+    "our_stars": 0,
+    "current_topics": [
+      "agent-skill",
+      "apple-silicon",
+      "arm64",
+      "electron",
+      "ffmpeg",
+      "mach-o",
+      "macos",
+      "python",
+      "rea",
+      "reverse-engineering",
+      "screen-recording",
+      "screen-studio",
+      "static-analysis",
+      "video-validation"
+    ],
+    "per_topic": [
+      {
+        "topic": "agent-skill",
+        "query": "topic:agent-skill",
+        "sort": "best-match",
+        "observed_at": "2026-10-29T13:29:44+00:00",
+        "sample_limit": 10,
+        "sampled_count": 10,
+        "incomplete_results": false,
+        "status": "ok",
+        "pool_total": 6069,
+        "best_match_rank": null,
+        "in_top_n": false,
+        "top_repos": [
+          {
+            "full_name": "guillaumemeyer/watermarks-remover",
+            "stars": 25493,
+            "description": "A privacy-first app that strips AI watermarks from content you own."
+          },
+          {
+            "full_name": "wheresryan22/anatomy",
+            "stars": 22434,
+            "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex s"
+          },
+          {
+            "full_name": "chuspeeism/dashi-ppt-skill",
+            "stars": 10162,
+            "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTM"
+          },
+          {
+            "full_name": "op7418/guizang-social-card-skill",
+            "stars": 7841,
+            "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss "
+          },
+          {
+            "full_name": "wiltodelta/remove-ai-watermarks",
+            "stars": 6176,
+            "description": "Remove visible and invisible AI watermarks from images and video, and AI provenance metadata from images, vide"
+          },
+          {
+            "full_name": "sergebulaev/linkedin-skills",
+            "stars": 5341,
+            "description": "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft co"
+          },
+          {
+            "full_name": "0xNyk/council-of-high-intelligence",
+            "stars": 4727,
+            "description": "Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debate"
+          },
+          {
+            "full_name": "QingYunA/answer-me-with-html",
+            "stars": 4632,
+            "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让"
+          },
+          {
+            "full_name": "Manavarya09/design-extract",
+            "stars": 4413,
+            "description": "Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP "
+          },
+          {
+            "full_name": "isjiamu/gzh-design-skill",
+            "stars": 4194,
+            "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste"
+          }
+        ],
+        "star_query": "topic:agent-skill",
+        "star_sort": "stars",
+        "star_observed_at": "2026-10-29T13:29:46+00:00",
+        "star_sample_limit": 10,
+        "star_sampled_count": 10,
+        "star_incomplete_results": false,
+        "median_stars_sample": 5758.5,
+        "top1_stars": 25493,
+        "verdict": "crowded-unobserved",
+        "advice": "Large reported pool (~6069 repos); star sample median=5758.5 across 10 results vs your 0. Not observed in the best-match sample; crowding alone is not a reason to remove a relevant tag.",
+        "error": ""
+      },
+      {
+        "topic": "apple-silicon",
+        "query": "topic:apple-silicon",
+        "sort": "best-match",
+        "observed_at": "2026-10-29T13:29:58+00:00",
+        "sample_limit": 10,
+        "sampled_count": 10,
+        "incomplete_results": false,
+        "status": "ok",
+        "pool_total": 7219,
+        "best_match_rank": null,
+        "in_top_n": false,
+        "top_repos": [
+          {
+            "full_name": "jundot/omlx",
+            "stars": 23146,
+            "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu ba"
+          },
+          {
+            "full_name": "darrylmorley/whatcable",
+            "stars": 9046,
+            "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually "
+          },
+          {
+            "full_name": "Blaizzy/mlx-audio",
+            "stars": 8150,
+            "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework"
+          },
+          {
+            "full_name": "MochiDiffusion/MochiDiffusion",
+            "stars": 7973,
+            "description": "Run Stable Diffusion on Mac natively"
+          },
+          {
+            "full_name": "openai/tart",
+            "stars": 7711,
+            "description": "macOS and Linux VMs on Apple Silicon to use in CI and other automations"
+          },
+          {
+            "full_name": "drumih/turbo-fieldfare",
+            "stars": 7084,
+            "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook"
+          },
+          {
+            "full_name": "mizorewww/laya-mlx",
+            "stars": 7036,
+            "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyT"
+          },
+          {
+            "full_name": "Arthur-Ficial/apfel",
+            "stars": 6540,
+            "description": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via "
+          },
+          {
+            "full_name": "ly05010419/MacNativeGames",
+            "stars": 6394,
+            "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not "
+          },
+          {
+            "full_name": "Blaizzy/mlx-vlm",
+            "stars": 5692,
+            "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX."
+          }
+        ],
+        "star_query": "topic:apple-silicon",
+        "star_sort": "stars",
+        "star_observed_at": "2026-10-29T13:30:01+00:00",
+        "star_sample_limit": 10,
+        "star_sampled_count": 10,
+        "star_incomplete_results": false,
+        "median_stars_sample": 7397.5,
+        "top1_stars": 23146,
+        "verdict": "crowded-unobserved",
+        "advice": "Large reported pool (~7219 repos); star sample median=7397.5 across 10 results vs your 0. Not observed in the best-match sample; crowding alone is not a reason to remove a relevant tag.",
+        "error": ""
+      },
+      {
+        "topic": "arm64",
+        "query": "topic:arm64",
+        "sort": "best-match",
+        "observed_at": "2026-10-29T13:30:04+00:00",
+        "sample_limit": 10,
+        "sampled_count": 10,
+        "incomplete_results": false,
+        "status": "ok",
+        "pool_total": 3431,
+        "best_match_rank": null,
+        "in_top_n": false,
+        "top_repos": [
+          {
+            "full_name": "ventoy/Ventoy",
+            "stars": 80434,
+            "description": "A new bootable USB solution."
+          },
+          {
+            "full_name": "simdjson/simdjson",
+            "stars": 24481,
+            "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, Watermelo"
+          },
+          {
+            "full_name": "rust-embedded/rust-raspberrypi-OS-tutorials",
+            "stars": 14742,
+            "description": ":books: Learn to write an embedded OS in Rust :crab:"
+          },
+          {
+            "full_name": "unicorn-engine/unicorn",
+            "stars": 9510,
+            "description": "Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, TriCore, X86)"
+          },
+          {
+            "full_name": "henrypp/simplewall",
+            "stars": 9215,
+            "description": "Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your compute"
+          },
+          {
+            "full_name": "capstone-engine/capstone",
+            "stars": 9150,
+            "description": "Capstone disassembly/disassembler framework for ARM, ARM64 (ARMv8), Alpha, BPF, Ethereum VM, HPPA, LoongArch, "
+          },
+          {
+            "full_name": "FEX-Emu/FEX",
+            "stars": 8353,
+            "description": "A fast usermode x86 and x86-64 emulator for Arm64 Linux"
+          },
+          {
+            "full_name": "ly05010419/MacNativeGames",
+            "stars": 6394,
+            "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not "
+          },
+          {
+            "full_name": "ptitSeb/box64",
+            "stars": 5694,
+            "description": "Box64 - Linux Userspace x86_64 Emulator with a twist, targeted at ARM64, RV64 and LoongArch Linux devices"
+          },
+          {
+            "full_name": "zufuliu/notepad4",
+            "stars": 5081,
+            "description": "Notepad4 (Notepad2⨯2, Notepad2++) is a light-weight Scintilla based text editor for Windows with syntax highli"
+          }
+        ],
+        "star_query": "topic:arm64",
+        "star_sort": "stars",
+        "star_observed_at": "2026-10-29T13:30:08+00:00",
+        "star_sample_limit": 10,
+        "star_sampled_count": 10,
+        "star_incomplete_results": false,
+        "median_stars_sample": 9182.5,
+        "top1_stars": 80434,
+        "verdict": "crowded-unobserved",
+        "advice": "Large reported pool (~3431 repos); star sample median=9182.5 across 10 results vs your 0. Not observed in the best-match sample; crowding alone is not a reason to remove a relevant tag.",
+        "error": ""
+      }
+    ],
+    "candidate_topics": {
+      "candidates": [
+        {
+          "topic": "android",
+          "support_count": 4,
+          "comparable_count": 4,
+          "sample_denominator": 23,
+          "examples": [
+            "Genymobile/scrcpy",
+            "alibaba/ARouter",
+            "gkd-kit/gkd",
+            "react/react-native"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "computer-vision",
+          "support_count": 3,
+          "comparable_count": 3,
+          "sample_denominator": 23,
+          "examples": [
+            "cvat-ai/cvat",
+            "rohitg00/ai-engineering-from-scratch",
+            "wkentaro/labelme"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "image-annotation",
+          "support_count": 3,
+          "comparable_count": 3,
+          "sample_denominator": 23,
+          "examples": [
+            "ShareX/ShareX",
+            "cvat-ai/cvat",
+            "wkentaro/labelme"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "mcp",
+          "support_count": 3,
+          "comparable_count": 3,
+          "sample_denominator": 23,
+          "examples": [
+            "Panniantong/Agent-Reach",
+            "morluto/rea",
+            "rohitg00/ai-engineering-from-scratch"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "ai-agents",
+          "support_count": 2,
+          "comparable_count": 2,
+          "sample_denominator": 23,
+          "examples": [
+            "morluto/rea",
+            "rohitg00/ai-engineering-from-scratch"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "annotations",
+          "support_count": 2,
+          "comparable_count": 2,
+          "sample_denominator": 23,
+          "examples": [
+            "cvat-ai/cvat",
+            "wkentaro/labelme"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "claude-code",
+          "support_count": 2,
+          "comparable_count": 2,
+          "sample_denominator": 23,
+          "examples": [
+            "Panniantong/Agent-Reach",
+            "morluto/rea"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "cli",
+          "support_count": 2,
+          "comparable_count": 2,
+          "sample_denominator": 23,
+          "examples": [
+            "Panniantong/Agent-Reach",
+            "morluto/rea"
+          ],
+          "requires_review": true,
+          "lexical_support": true,
+          "evidence_snippet": "| Human mouse-operation recording | 938 mouse positions, 15 clicks, 10 keystrokes, 1 zoom range; user reported normal functionality |\n| Application restart | Offli"
+        },
+        {
+          "topic": "deep-learning",
+          "support_count": 2,
+          "comparable_count": 2,
+          "sample_denominator": 23,
+          "examples": [
+            "rohitg00/ai-engineering-from-scratch",
+            "wkentaro/labelme"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "dsh",
+          "support_count": 2,
+          "comparable_count": 2,
+          "sample_denominator": 23,
+          "examples": [
+            "morluto/rea",
+            "rohitg00/ai-engineering-from-scratch"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        },
+        {
+          "topic": "linux",
+          "support_count": 2,
+          "comparable_count": 2,
+          "sample_denominator": 23,
+          "examples": [
+            "CISOfy/lynis",
+            "jaywcjlove/linux-command"
+          ],
+          "requires_review": true,
+          "lexical_support": true,
+          "evidence_snippet": "es not make the macOS app compatible with Intel,\nWindows or Linux.\n\n## Development\n\n```bash\npython3 -m unittest discover -s tests -v\n```\n\nTests use synthetic fixture"
+        },
+        {
+          "topic": "llm",
+          "support_count": 2,
+          "comparable_count": 2,
+          "sample_denominator": 23,
+          "examples": [
+            "morluto/rea",
+            "rohitg00/ai-engineering-from-scratch"
+          ],
+          "requires_review": true,
+          "lexical_support": false,
+          "evidence_snippet": ""
+        }
+      ],
+      "comparables_sampled": [
+        {
+          "full_name": "morluto/rea",
+          "stars": 405739,
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "binary-analysis",
+            "claude-code",
+            "cli",
+            "codex",
+            "cordis",
+            "decompiler",
+            "developer-tools",
+            "dsh",
+            "dsh-plugin",
+            "ghidra",
+            "hopper",
+            "llm",
+            "mcp",
+            "model-context-protocol",
+            "rea",
+            "reverse-engineering",
+            "static-analysis",
+            "touhou"
+          ]
+        },
+        {
+          "full_name": "react/react",
+          "stars": 251812,
+          "topics": [
+            "declarative",
+            "frontend",
+            "javascript",
+            "library",
+            "react",
+            "ui"
+          ]
+        },
+        {
+          "full_name": "react/react-native",
+          "stars": 126817,
+          "topics": [
+            "android",
+            "app-framework",
+            "cross-platform",
+            "ios",
+            "mobile",
+            "mobile-development",
+            "react",
+            "react-native"
+          ]
+        },
+        {
+          "full_name": "Panniantong/Agent-Reach",
+          "stars": 106029,
+          "topics": [
+            "agent-infrastructure",
+            "ai-agent",
+            "ai-search",
+            "automation",
+            "bilibili",
+            "claude-code",
+            "cli",
+            "cursor",
+            "free-api",
+            "llm-tools",
+            "mcp",
+            "python",
+            "reddit-scraper",
+            "twitter-scraper",
+            "web-scraper",
+            "xiaohongshu",
+            "youtube-transcript"
+          ]
+        },
+        {
+          "full_name": "react/create-react-app",
+          "stars": 103236,
+          "topics": [
+            "build-tools",
+            "react",
+            "zero-configuration"
+          ]
+        },
+        {
+          "full_name": "realworld-apps/realworld",
+          "stars": 84333,
+          "topics": []
+        },
+        {
+          "full_name": "anuraghazra/github-readme-stats",
+          "stars": 79856,
+          "topics": [
+            "dynamic",
+            "profile-readme",
+            "readme-generator",
+            "readme-stats",
+            "serverless"
+          ]
+        },
+        {
+          "full_name": "rohitg00/ai-engineering-from-scratch",
+          "stars": 75500,
+          "topics": [
+            "agents",
+            "ai",
+            "ai-agents",
+            "ai-engineering",
+            "computer-vision",
+            "course",
+            "deep-learning",
+            "dsh",
+            "from-scratch",
+            "generative-ai",
+            "llm",
+            "machine-learning",
+            "mcp",
+            "python",
+            "rea",
+            "reinforcement-learning",
+            "rust",
+            "transformers",
+            "tutorial",
+            "typescript"
+          ]
+        },
+        {
+          "full_name": "cvat-ai/cvat",
+          "stars": 17031,
+          "topics": [
+            "annotation",
+            "annotation-tool",
+            "annotations",
+            "audio-annotation",
+            "audio-annotation-tool",
+            "audio-transcription",
+            "boundingbox",
+            "computer-vision",
+            "computer-vision-annotation",
+            "dataset",
+            "image-annotation",
+            "image-classification",
+            "image-labeling",
+            "image-labelling-tool",
+            "labeling",
+            "labeling-tool",
+            "object-detection",
+            "semantic-segmentation",
+            "video-annotation",
+            "yolo"
+          ]
+        },
+        {
+          "full_name": "CISOfy/lynis",
+          "stars": 16587,
+          "topics": [
+            "auditing",
+            "compliance",
+            "devops",
+            "devops-tools",
+            "gdpr",
+            "hardening",
+            "hipaa",
+            "linux",
+            "pci-dss",
+            "security-audit",
+            "security-hardening",
+            "security-scanner",
+            "security-tools",
+            "security-vulnerability",
+            "shell",
+            "system-hardening",
+            "unix",
+            "vulnerability-assessment",
+            "vulnerability-detection",
+            "vulnerability-scanners"
+          ]
+        },
+        {
+          "full_name": "wkentaro/labelme",
+          "stars": 16250,
+          "topics": [
+            "annotations",
+            "classification",
+            "computer-vision",
+            "deep-learning",
+            "image-annotation",
+            "instance-segmentation",
+            "python",
+            "semantic-segmentation",
+            "video-annotation"
+          ]
+        },
+        {
+          "full_name": "alibaba/ARouter",
+          "stars": 14452,
+          "topics": [
+            "android",
+            "componentization",
+            "dependency-injection",
+            "interceptor",
+            "navigation",
+            "router"
+          ]
+        },
+        {
+          "full_name": "rzashakeri/beautify-github-profile",
+          "stars": 12583,
+          "topics": [
+            "awsome",
+            "awsome-profile",
+            "beautifygithubprofile",
+            "github",
+            "github-api",
+            "github-profile",
+            "github-profile-readme",
+            "githubprofile",
+            "markdown",
+            "profile",
+            "profile-readme",
+            "readme",
+            "readme-profile"
+          ]
+        },
+        {
+          "full_name": "coreui/coreui-free-bootstrap-admin-template",
+          "stars": 12254,
+          "topics": [
+            "admin",
+            "admin-dashboard",
+            "admin-panel",
+            "admin-template",
+            "admin-theme",
+            "admin-ui",
+            "adminlte",
+            "bootstrap",
+            "bootstrap-admin",
+            "bootstrap-admin-dashboard",
+            "bootstrap-admin-panel",
+            "bootstrap-admin-template",
+            "bootstrap-admin-template-free",
+            "bootstrap5",
+            "bootstrap5-template",
+            "css",
+            "dashboard",
+            "scss",
+            "template",
+            "theme"
+          ]
+        },
+        {
+          "full_name": "Doriandarko/claude-engineer",
+          "stars": 11217,
+          "topics": []
+        },
+        {
+          "full_name": "major/MySQLTuner-perl",
+          "stars": 9475,
+          "topics": []
+        },
+        {
+          "full_name": "Genymobile/scrcpy",
+          "stars": 153471,
+          "topics": [
+            "android",
+            "c",
+            "ffmpeg",
+            "genyteam-system",
+            "libav",
+            "mirroring",
+            "recording",
+            "screen",
+            "sdl2"
+          ]
+        },
+        {
+          "full_name": "abi/screenshot-to-code",
+          "stars": 80877,
+          "topics": []
+        },
+        {
+          "full_name": "obsproject/obs-studio",
+          "stars": 78559,
+          "topics": [
+            "c",
+            "c-plus-plus",
+            "directshow",
+            "facebook-live",
+            "ffmpeg",
+            "game-capture",
+            "live-streaming",
+            "screen-capture",
+            "twitch-tv",
+            "video-recording",
+            "youtube-live"
+          ]
+        },
+        {
+          "full_name": "gkd-kit/gkd",
+          "stars": 43633,
+          "topics": [
+            "accessibility",
+            "android",
+            "auto",
+            "click",
+            "compose",
+            "compose-multiplatform",
+            "jetpack-compose",
+            "kotlin",
+            "kotlin-js",
+            "kotlin-multiplatform",
+            "webassembly"
+          ]
+        },
+        {
+          "full_name": "ShareX/ShareX",
+          "stars": 40503,
+          "topics": [
+            "avalonia",
+            "capture",
+            "color-picker",
+            "csharp",
+            "dropbox",
+            "file-sharing",
+            "file-upload",
+            "ftp",
+            "gif",
+            "gif-recorder",
+            "image-annotation",
+            "ocr",
+            "productivity",
+            "region-capture",
+            "screen-capture",
+            "screen-recorder",
+            "screenshot",
+            "share",
+            "sharex",
+            "url-shortener"
+          ]
+        },
+        {
+          "full_name": "jaywcjlove/linux-command",
+          "stars": 37191,
+          "topics": [
+            "bash",
+            "chrome",
+            "chrome-extension",
+            "command-line",
+            "gh-pages",
+            "linux",
+            "linux-command",
+            "ls",
+            "screen",
+            "screenshot",
+            "search",
+            "ssh",
+            "tools",
+            "web-tools"
+          ]
+        },
+        {
+          "full_name": "alvarotrigo/fullPage.js",
+          "stars": 35369,
+          "topics": [
+            "fullpage",
+            "fullscreen",
+            "javascript",
+            "jquery",
+            "mousewheel",
+            "onepage",
+            "scrolling",
+            "sections",
+            "slide",
+            "slideshow",
+            "snap",
+            "swipe"
+          ]
+        }
+      ],
+      "sample_denominator": 23,
+      "errors": [],
+      "status": "ok",
+      "coverage": {
+        "queries_attempted": 3,
+        "queries_succeeded": 3
+      },
+      "observations": [
+        {
+          "query": "rea",
+          "sort": "stars",
+          "sample_limit": 8,
+          "observed_at": "2026-10-29T13:30:11+00:00",
+          "sampled_count": 8,
+          "incomplete_results": false,
+          "status": "ok",
+          "pool_total": 6281003
+        },
+        {
+          "query": "assisted",
+          "sort": "stars",
+          "sample_limit": 8,
+          "observed_at": "2026-10-29T13:30:24+00:00",
+          "sampled_count": 8,
+          "incomplete_results": false,
+          "status": "ok",
+          "pool_total": 139418
+        },
+        {
+          "query": "screen",
+          "sort": "stars",
+          "sample_limit": 8,
+          "observed_at": "2026-10-29T13:30:27+00:00",
+          "sampled_count": 8,
+          "incomplete_results": false,
+          "status": "ok",
+          "pool_total": 408723
+        }
+      ],
+      "note": "Co-occurrence and literal text matches are clues only; semantic relevance requires review."
+    },
+    "limitations": [
+      "Analyzed first 3 of 14 topics (raise with --max-topics)."
+    ],
+    "structure_score": 100,
+    "quality_score": 100,
+    "structure_notes": [
+      "Structure/syntax coverage only; semantic relevance requires project-specific review."
+    ],
+    "quality_notes": [
+      "Structure/syntax coverage only; semantic relevance requires project-specific review."
+    ],
+    "ranking_score": 30,
+    "coverage": {
+      "topics_total": 14,
+      "topics_analyzed": 3,
+      "topics_succeeded": 3,
+      "candidate_queries": {
+        "queries_attempted": 3,
+        "queries_succeeded": 3
+      }
+    },
+    "status": "partial"
+  },
+  "search_benchmark": [
+    {
+      "query": "\"Screen Studio\" REA in:readme",
+      "sort": "best-match",
+      "observed_at_utc": "2026-10-29T13:31:33.748040+00:00",
+      "sample_limit": 100,
+      "sampled_count": 52,
+      "incomplete_results": false,
+      "status": "partial",
+      "total": 53,
+      "rank_in_sample": 6,
+      "competitors": [],
+      "error": {
+        "message": "Returned sample is shorter than the requested result window",
+        "status": null
+      }
+    },
+    {
+      "query": "\"Electron\" \"ASAR\" \"permissions\" in:readme",
+      "sort": "best-match",
+      "observed_at_utc": "2026-10-29T13:31:38.097655+00:00",
+      "sample_limit": 100,
+      "sampled_count": 100,
+      "incomplete_results": false,
+      "status": "ok",
+      "total": 2341,
+      "rank_in_sample": null,
+      "competitors": [],
+      "error": null
+    },
+    {
+      "query": "\"screen recording\" \"export\" \"validation\" in:readme",
+      "sort": "best-match",
+      "observed_at_utc": "2026-10-29T13:31:44.546036+00:00",
+      "sample_limit": 100,
+      "sampled_count": 100,
+      "incomplete_results": false,
+      "status": "ok",
+      "total": 7721,
+      "rank_in_sample": null,
+      "competitors": [],
+      "error": null
+    }
+  ],
+  "benchmark_queries": [
+    "\"Screen Studio\" REA in:readme",
+    "\"Electron\" \"ASAR\" \"permissions\" in:readme",
+    "\"screen recording\" \"export\" \"validation\" in:readme"
+  ],
+  "query_source": "provided",
+  "comparison": null,
+  "awesome": {
+    "repo": "Royo-Qiao/screenstudio-rea-research",
+    "terms_used": [
+      "agent-skill",
+      "apple-silicon",
+      "arm64",
+      "electron",
+      "ffmpeg",
+      "mach-o"
+    ],
+    "lists": [
+      {
+        "full_name": "VoltAgent/awesome-agent-skills",
+        "url": "https://github.com/VoltAgent/awesome-agent-skills",
+        "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor",
+        "stars": 36554,
+        "last_push": "2026-10-29T09:33:34Z",
+        "days_since_push": 0,
+        "matched_terms": [
+          "agent-skill"
+        ],
+        "contributing_url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md",
+        "open_issues": 7,
+        "default_branch": "main",
+        "readme_url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/README.md",
+        "rules_url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md",
+        "already_listed": false,
+        "status": "review-required",
+        "limitations": [
+          "Matching list section unknown; list-title similarity is not section evidence."
+        ],
+        "eligibility": {
+          "status": "review-required",
+          "evidence": [
+            {
+              "text": "Add your skill to the end of the relevant category in `README.md`:",
+              "line": 9,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L9"
+            },
+            {
+              "text": "- **[author/skill-name](https://github.com/author/repo/path)** - Short description of what it does",
+              "line": 12,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L12"
+            },
+            {
+              "text": "- **Development team skills**: If your team has an existing section (e.g. \"Skills by Vercel Engineering Team\"), add to the end of that section.",
+              "line": 17,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L17"
+            },
+            {
+              "text": "- **Community skills**: Add to the end of the matching subcategory under \"Community Skills\" (Marketing, Productivity and Collaboration, Development and Testing, Context Engineering, AI and Data, n8n Automation, or Other).",
+              "line": 18,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L18"
+            },
+            {
+              "text": "- If no existing category fits, add to \"Other\".",
+              "line": 19,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L19"
+            },
+            {
+              "text": "- Description must be short, 10 words or fewer. No lengthy paragraphs.",
+              "line": 26,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L26"
+            },
+            {
+              "text": "- Skill must have real community usage. We focus on community-adopted, proven skills. Brand new skills that were just created are not accepted. Give your skill time to mature and gain users before submitting.",
+              "line": 27,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L27"
+            },
+            {
+              "text": "`Add skill: author/skill-name`",
+              "line": 31,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L31"
+            },
+            {
+              "text": "- This repository curates links only. Each skill lives in its own repo.",
+              "line": 35,
+              "url": "https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md#L35"
+            }
+          ],
+          "section": null
+        },
+        "coverage": {
+          "readme": true,
+          "rules": true
+        },
+        "listing_evidence": null,
+        "submission": {
+          "title": "Add screenstudio-rea-research",
+          "entry": "- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.",
+          "body": "Proposed entry:\n\n- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.\n\nPlease review eligibility and entry format against the contribution rules."
+        }
+      },
+      {
+        "full_name": "sindresorhus/awesome-electron",
+        "url": "https://github.com/sindresorhus/awesome-electron",
+        "description": "Useful resources for creating apps with Electron [SUBMISSIONS ARE TEMPORARILY PAUSED BECAUSE I'M TIRED OF REVIEWING LOW-QUALITY STUFF]",
+        "stars": 27348,
+        "last_push": "2026-05-03T11:29:47Z",
+        "days_since_push": 179,
+        "matched_terms": [
+          "electron"
+        ],
+        "contributing_url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md",
+        "open_issues": 7,
+        "default_branch": "main",
+        "readme_url": "https://github.com/sindresorhus/awesome-electron/blob/main/readme.md",
+        "rules_url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md",
+        "already_listed": false,
+        "status": "candidate",
+        "limitations": [],
+        "eligibility": {
+          "status": "review-required",
+          "evidence": [
+            {
+              "text": "Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.",
+              "line": 3,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L3"
+            },
+            {
+              "text": "Ensure your pull request adheres to the following guidelines:",
+              "line": 7,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L7"
+            },
+            {
+              "text": "- **The pull request should have a useful title and include a link to the thing you're submitting and why it should be included.**",
+              "line": 9,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L9"
+            },
+            {
+              "text": "- Don't open a Draft / WIP pull request while you work on the guidelines. A pull request should be 100% ready and should adhere to all the guidelines when you open it.",
+              "line": 10,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L10"
+            },
+            {
+              "text": "- The project repo should have at least 100 stars.",
+              "line": 12,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L12"
+            },
+            {
+              "text": "- Submitted open source apps should have a English readme, screenshot of the app in the readme, and a binary for at least one OS, preferably macOS, Linux and Windows.",
+              "line": 17,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L17"
+            },
+            {
+              "text": "- Submitted packages should be tested and documented.",
+              "line": 18,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L18"
+            },
+            {
+              "text": "- Make an individual pull request for each suggestion.",
+              "line": 19,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L19"
+            },
+            {
+              "text": "- Use the following format: `[title](link) - Description.`",
+              "line": 20,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L20"
+            },
+            {
+              "text": "- Additions should be added to the bottom of the relevant section.",
+              "line": 21,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L21"
+            },
+            {
+              "text": "- Start the description with a capital and end with a full stop/period.",
+              "line": 23,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L23"
+            },
+            {
+              "text": "- Don't mention `Electron` in the description as it's implied.",
+              "line": 24,
+              "url": "https://github.com/sindresorhus/awesome-electron/blob/main/contributing.md#L24"
+            }
+          ],
+          "section": {
+            "heading": "For Electron",
+            "level": 3,
+            "line": 210,
+            "matched_terms": [
+              "electron"
+            ],
+            "url": "https://github.com/sindresorhus/awesome-electron/blob/main/readme.md#L210"
+          }
+        },
+        "coverage": {
+          "readme": true,
+          "rules": true
+        },
+        "listing_evidence": null,
+        "submission": {
+          "title": "Add screenstudio-rea-research",
+          "entry": "- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.",
+          "body": "Proposed entry:\n\n- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.\n\nSuggested section: For Electron (https://github.com/sindresorhus/awesome-electron/blob/main/readme.md#L210).\n\nPlease review eligibility and entry format against the contribution rules."
+        }
+      },
+      {
+        "full_name": "kitspace/awesome-electronics",
+        "url": "https://github.com/kitspace/awesome-electronics",
+        "description": "A curated list of awesome resources for Electronic Engineers and hobbyists",
+        "stars": 8298,
+        "last_push": "2026-10-12T13:41:09Z",
+        "days_since_push": 16,
+        "matched_terms": [
+          "electron"
+        ],
+        "contributing_url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md",
+        "open_issues": 39,
+        "default_branch": "master",
+        "readme_url": "https://github.com/kitspace/awesome-electronics/blob/master/README.md",
+        "rules_url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md",
+        "already_listed": false,
+        "status": "review-required",
+        "limitations": [
+          "Matching list section unknown; list-title similarity is not section evidence."
+        ],
+        "eligibility": {
+          "status": "review-required",
+          "evidence": [
+            {
+              "text": "- [Updating your Pull Request](#updating-your-pull-request)",
+              "line": 8,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L8"
+            },
+            {
+              "text": "Please only add projects to the list that you are not personally affiliated with.",
+              "line": 13,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L13"
+            },
+            {
+              "text": "Please ensure your pull request adheres to the following guidelines:",
+              "line": 17,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L17"
+            },
+            {
+              "text": "- Make an individual pull request for each suggestion.",
+              "line": 20,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L20"
+            },
+            {
+              "text": "- Use the following format: `[Link Name](link)`",
+              "line": 22,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L22"
+            },
+            {
+              "text": "- Link additions should be added to the bottom of the relevant category.",
+              "line": 23,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L23"
+            },
+            {
+              "text": "- The pull request and commit should have a useful title.",
+              "line": 26,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L26"
+            },
+            {
+              "text": "6. Submit the [pull request](https://help.github.com/articles/using-pull-requests/)!",
+              "line": 42,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L42"
+            },
+            {
+              "text": "Sometimes, a maintainer of an awesome list will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-* list guidelines.",
+              "line": 46,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L46"
+            },
+            {
+              "text": "[Here](https://github.com/RichardLitt/docs/blob/master/amending-a-commit-guide.md) is a write up on how to change a Pull Request, and the different ways you can do that.",
+              "line": 48,
+              "url": "https://github.com/kitspace/awesome-electronics/blob/master/contributing.md#L48"
+            }
+          ],
+          "section": null
+        },
+        "coverage": {
+          "readme": true,
+          "rules": true
+        },
+        "listing_evidence": null,
+        "submission": {
+          "title": "Add screenstudio-rea-research",
+          "entry": "- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.",
+          "body": "Proposed entry:\n\n- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.\n\nPlease review eligibility and entry format against the contribution rules."
+        }
+      },
+      {
+        "full_name": "heilcheng/awesome-agent-skills",
+        "url": "https://github.com/heilcheng/awesome-agent-skills",
+        "description": "Tutorials, Guides and Agent Skills Directories",
+        "stars": 6320,
+        "last_push": "2026-10-27T18:22:59Z",
+        "days_since_push": 1,
+        "matched_terms": [
+          "agent-skill"
+        ],
+        "contributing_url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md",
+        "open_issues": 346,
+        "default_branch": "main",
+        "readme_url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/README.md",
+        "rules_url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md",
+        "already_listed": false,
+        "status": "candidate",
+        "limitations": [],
+        "eligibility": {
+          "status": "review-required",
+          "evidence": [
+            {
+              "text": "> This project is more than just a list of links. It is a **living standard** for how AI agents should be taught new capabilities. Your contributions help define that standard.",
+              "line": 6,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L6"
+            },
+            {
+              "text": "If you've built or found a high-quality AI agent skill, please share it!",
+              "line": 15,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L15"
+            },
+            {
+              "text": "`- [owner/repo](https://github.com/owner/repo) - Description under 100 characters`",
+              "line": 26,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L26"
+            },
+            {
+              "text": "3. Open a Pull Request and fill in the checklist.",
+              "line": 27,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L27"
+            },
+            {
+              "text": "*   Add real-world examples to existing skills.",
+              "line": 34,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L34"
+            },
+            {
+              "text": "Every skill in the index should be self-contained in a `SKILL.md` file. A perfect skill includes:",
+              "line": 46,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L46"
+            },
+            {
+              "text": "| **Description** | What problem does this solve for the user? |",
+              "line": 51,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L51"
+            },
+            {
+              "text": "| **Context** | What files/folders should the AI look at? |",
+              "line": 53,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L53"
+            },
+            {
+              "text": "2. **Commit**: Use descriptive commit messages (e.g., `feat: add documentation-helper skill`).",
+              "line": 61,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L61"
+            },
+            {
+              "text": "4. **Submit**: Open your PR with a brief description of what you've changed.",
+              "line": 63,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L63"
+            },
+            {
+              "text": "5. **Wait for triage**: Submissions are reviewed in weekly batches. Accepted entries are merged in a batch PR that keeps you as commit author; entries below the bar are labelled `on hold` with a reason.",
+              "line": 64,
+              "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/CONTRIBUTING.md#L64"
+            }
+          ],
+          "section": {
+            "heading": "How do I create my first Agent Skill?",
+            "level": 3,
+            "line": 966,
+            "matched_terms": [
+              "agent-skill"
+            ],
+            "url": "https://github.com/heilcheng/awesome-agent-skills/blob/main/README.md#L966"
+          }
+        },
+        "coverage": {
+          "readme": true,
+          "rules": true
+        },
+        "listing_evidence": null,
+        "submission": {
+          "title": "Add screenstudio-rea-research",
+          "entry": "- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.",
+          "body": "Proposed entry:\n\n- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.\n\nSuggested section: How do I create my first Agent Skill? (https://github.com/heilcheng/awesome-agent-skills/blob/main/README.md#L966).\n\nPlease review eligibility and entry format against the contribution rules."
+        }
+      },
+      {
+        "full_name": "gamedev-skills/awesome-gamedev-agent-skills",
+        "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "description": "77 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agen",
+        "stars": 5539,
+        "last_push": "2026-10-28T03:10:14Z",
+        "days_since_push": 1,
+        "matched_terms": [
+          "agent-skill"
+        ],
+        "contributing_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md",
+        "open_issues": 3,
+        "default_branch": "main",
+        "readme_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/README.md",
+        "rules_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md",
+        "already_listed": false,
+        "status": "review-required",
+        "limitations": [
+          "Matching list section unknown; list-title similarity is not section evidence."
+        ],
+        "eligibility": {
+          "status": "review-required",
+          "evidence": [
+            {
+              "text": "values correct, lean, original skills over volume. Please read this guide and the",
+              "line": 4,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L4"
+            },
+            {
+              "text": "authoring standard in [`docs/SKILL-FORMAT.md`](docs/SKILL-FORMAT.md) before opening a PR.",
+              "line": 5,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L5"
+            },
+            {
+              "text": "The directory name **must equal** the skill's `name` frontmatter field.",
+              "line": 21,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L21"
+            },
+            {
+              "text": "- [ ] **Frontmatter valid.** `name` is ≤64 chars, lowercase letters/digits/hyphens only,",
+              "line": 36,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L36"
+            },
+            {
+              "text": "no leading/trailing hyphen, and equals the folder name; `name` and `description`",
+              "line": 37,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L37"
+            },
+            {
+              "text": "are the only committed frontmatter fields.",
+              "line": 38,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L38"
+            },
+            {
+              "text": "- [ ] **Description is a trigger.** `description` is non-empty, ≤1024 chars, and states",
+              "line": 39,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L39"
+            },
+            {
+              "text": "- [ ] **Progressive disclosure.** Name + description are enough to decide relevance; the",
+              "line": 43,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L43"
+            },
+            {
+              "text": "required fields, entry names and relative paths).",
+              "line": 68,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L68"
+            },
+            {
+              "text": "python scripts/check-site.py        # per-page title/description/canonical checks",
+              "line": 81,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L81"
+            },
+            {
+              "text": "CI runs the validator, the tests and both site steps on every pull request.",
+              "line": 84,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L84"
+            },
+            {
+              "text": "The [master router](router/SKILL.md) only routes to skills it knows about, so a new skill is",
+              "line": 88,
+              "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/CONTRIBUTING.md#L88"
+            }
+          ],
+          "section": null
+        },
+        "coverage": {
+          "readme": true,
+          "rules": true
+        },
+        "listing_evidence": null,
+        "submission": {
+          "title": "Add screenstudio-rea-research",
+          "entry": "- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.",
+          "body": "Proposed entry:\n\n- [screenstudio-rea-research](https://github.com/Royo-Qiao/screenstudio-rea-research) — REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.\n\nPlease review eligibility and entry format against the contribution rules."
+        }
+      }
+    ],
+    "total_matches": 16,
+    "errors": [],
+    "score": null,
+    "status": "partial",
+    "coverage": {
+      "queries_attempted": 8,
+      "queries_succeeded": 8,
+      "lists_inspected": 5,
+      "readmes_read": 5,
+      "rules_read": 5
+    },
+    "limitations": [
+      "VoltAgent/awesome-agent-skills: Matching list section unknown; list-title similarity is not section evidence.",
+      "kitspace/awesome-electronics: Matching list section unknown; list-title similarity is not section evidence.",
+      "gamedev-skills/awesome-gamedev-agent-skills: Matching list section unknown; list-title similarity is not section evidence."
+    ]
+  },
+  "traffic": null,
+  "suggestions": {
+    "description": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.",
+    "topics": [
+      "agent-skill",
+      "apple-silicon",
+      "arm64",
+      "electron",
+      "ffmpeg",
+      "mach-o",
+      "macos",
+      "python",
+      "rea",
+      "reverse-engineering",
+      "screen-recording",
+      "screen-studio",
+      "static-analysis",
+      "video-validation"
+    ],
+    "topic_notes": [
+      "保留原有有效标签；拥挤、未分析或查询失败均不构成删除理由。",
+      "共现候选待核实项目能力；未自动加入推荐列表。"
+    ],
+    "readme_opening": "# screenstudio-rea-research\n\nREA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.\n"
+  },
+  "promotion": {
+    "goal": "Help readers reproduce file inspections and validate their own licensed recording/export workflow.",
+    "drafts": [
+      {
+        "channel": "GitHub repository",
+        "audience": "Developers and coding-agent operators studying macOS Electron/native recording workflows.",
+        "status": "draft",
+        "text": "screenstudio-rea-research：REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.\n\nhttps://github.com/Royo-Qiao/screenstudio-rea-research",
+        "cta": "Help readers reproduce file inspections and validate their own licensed recording/export workflow.",
+        "evidence": [
+          {
+            "source": "user-context",
+            "text": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation."
+          }
+        ],
+        "rationale": "按受众与真实用例选择；发布前核查渠道规则。"
+      },
+      {
+        "channel": "X article draft",
+        "audience": "Developers and coding-agent operators studying macOS Electron/native recording workflows.",
+        "status": "draft",
+        "text": "项目介绍：REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation.\n\nhttps://github.com/Royo-Qiao/screenstudio-rea-research",
+        "cta": "Help readers reproduce file inspections and validate their own licensed recording/export workflow.",
+        "evidence": [
+          {
+            "source": "user-context",
+            "text": "REA-assisted Screen Studio research with read-only Electron/Mach-O inspection, private native-project event counts, and complete video export validation."
+          }
+        ],
+        "rationale": "按受众与真实用例选择；发布前核查渠道规则。"
+      }
+    ],
+    "materials": [
+      "核对项目简介与实际能力",
+      "准备一个真实输入与预期输出",
+      "确认快速开始可用"
+    ],
+    "review": [
+      {
+        "day": 0,
+        "action": "记录基线、修复资料并准备素材"
+      },
+      {
+        "day": 7,
+        "action": "复查访问、clone、有效反馈及已提交清单状态"
+      },
+      {
+        "day": 14,
+        "action": "对比同口径搜索样本与流量；记录变化，避免自动归因"
+      }
+    ],
+    "limitations": [
+      "These are drafts and a review plan; nothing has been published or scheduled."
+    ]
+  },
+  "limitations": [
+    "Search query \"Screen Studio\" REA in:readme: {'message': 'Returned sample is shorter than the requested result window', 'status': None}",
+    "README lint checks documented structure; commands were not executed or proven correct.",
+    "Analyzed first 3 of 14 topics (raise with --max-topics).",
+    "VoltAgent/awesome-agent-skills: Matching list section unknown; list-title similarity is not section evidence.",
+    "kitspace/awesome-electronics: Matching list section unknown; list-title similarity is not section evidence.",
+    "gamedev-skills/awesome-gamedev-agent-skills: Matching list section unknown; list-title similarity is not section evidence.",
+    "Project type is a selectable heuristic; user context is not independently verified."
+  ]
+}

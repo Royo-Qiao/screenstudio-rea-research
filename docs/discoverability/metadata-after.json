@@ -1,0 +1,139 @@
+{
+  "repo": "Royo-Qiao/screenstudio-rea-research",
+  "auth_context": {
+    "token_present": true,
+    "gh_available": true,
+    "gh_authenticated": true,
+    "mode": "token"
+  },
+  "limitations": [
+    "Community profile alone does not establish absence of directory-based issue templates."
+  ],
+  "metadata": {
+    "name": "screenstudio-rea-research",
+    "full_name": "Royo-Qiao/screenstudio-rea-research",
+    "description": "REA reverse-engineering case study of Screen Studio on Apple Silicon: Electron/Mach-O inspection, private project statistics, and full video export validation.",
+    "homepage": "",
+    "topics": [
+      "agent-skill",
+      "apple-silicon",
+      "arm64",
+      "electron",
+      "ffmpeg",
+      "mach-o",
+      "macos",
+      "python",
+      "rea",
+      "reverse-engineering",
+      "screen-recording",
+      "screen-studio",
+      "static-analysis",
+      "video-validation"
+    ],
+    "language": "Python",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "watchers_count": 0,
+    "open_issues_count": 0,
+    "pushed_at": "2026-10-29T13:33:09Z",
+    "created_at": "2026-10-29T13:28:17Z",
+    "default_branch": "main",
+    "license": "MIT",
+    "has_pages": false,
+    "social_preview_url": null
+  },
+  "community_profile": {
+    "health_percentage": 100,
+    "files": {
+      "code_of_conduct": {
+        "key": "other",
+        "name": "Other",
+        "html_url": "https://github.com/Royo-Qiao/screenstudio-rea-research/blob/main/CODE_OF_CONDUCT.md",
+        "url": "https://api.github.com/repos/Royo-Qiao/screenstudio-rea-research/community/code_of_conduct"
+      },
+      "code_of_conduct_file": {
+        "url": "https://api.github.com/repos/Royo-Qiao/screenstudio-rea-research/contents/CODE_OF_CONDUCT.md",
+        "html_url": "https://github.com/Royo-Qiao/screenstudio-rea-research/blob/main/CODE_OF_CONDUCT.md"
+      },
+      "contributing": {
+        "url": "https://api.github.com/repos/Royo-Qiao/screenstudio-rea-research/contents/CONTRIBUTING.md",
+        "html_url": "https://github.com/Royo-Qiao/screenstudio-rea-research/blob/main/CONTRIBUTING.md"
+      },
+      "issue_template": null,
+      "pull_request_template": null,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz",
+        "html_url": "https://github.com/Royo-Qiao/screenstudio-rea-research/blob/main/LICENSE"
+      },
+      "readme": {
+        "url": "https://api.github.com/repos/Royo-Qiao/screenstudio-rea-research/contents/README.md",
+        "html_url": "https://github.com/Royo-Qiao/screenstudio-rea-research/blob/main/README.md"
+      }
+    }
+  },
+  "findings": [
+    {
+      "area": "Metadata",
+      "severity": "Info",
+      "finding": "Homepage URL not set.",
+      "evidence": "`homepage` is empty.",
+      "fix": "Point homepage at docs/demo site if one exists — it renders in the About card.",
+      "confidence": "Confirmed",
+      "evidence_tier": "heuristic"
+    },
+    {
+      "area": "Trust",
+      "severity": "Info",
+      "finding": "Issue template not identified by community profile.",
+      "evidence": "community/profile `files.issue_template` is null; directory-based templates were not inspected.",
+      "fix": "Check `.github/ISSUE_TEMPLATE/` before treating a template as absent.",
+      "confidence": "Confirmed",
+      "evidence_tier": "heuristic"
+    }
+  ],
+  "status": "ok",
+  "coverage": {
+    "metadata": "ok",
+    "community": "ok",
+    "topics": "ok"
+  },
+  "summary": {
+    "score": 100,
+    "rating": "Excellent",
+    "critical": 0,
+    "warning": 0
+  },
+  "name_tokens": [
+    "rea",
+    "research",
+    "screenstudio"
+  ],
+  "description_tokens": [
+    "rea",
+    "reverse",
+    "engineering",
+    "case",
+    "study",
+    "of",
+    "screen",
+    "studio",
+    "on",
+    "apple",
+    "silicon",
+    "electron",
+    "mach",
+    "inspection",
+    "private",
+    "statistics",
+    "full",
+    "video",
+    "export",
+    "validation"
+  ]
+}

@@ -13,13 +13,13 @@
   "fuse_count": 8,
   "fuses": {
     "RunAsNode": "enabled",
-    "CookieEncryption": "disabled",
-    "NodeOptions": "enabled",
-    "NodeCliInspect": "enabled",
-    "EmbeddedAsarIntegrity": "disabled",
+    "EnableCookieEncryption": "disabled",
+    "EnableNodeOptionsEnvironmentVariable": "enabled",
+    "EnableNodeCliInspectArguments": "enabled",
+    "EnableEmbeddedAsarIntegrityValidation": "disabled",
     "OnlyLoadAppFromAsar": "disabled",
-    "BrowserV8Snapshot": "disabled",
-    "FileProtocolExtraPrivileges": "enabled"
+    "LoadBrowserProcessSpecificV8Snapshot": "disabled",
+    "GrantFileProtocolExtraPrivileges": "enabled"
   },
   "limits": "Static fuse bytes do not prove inspector reachability, runtime authorization, native capture or export behavior"
 }

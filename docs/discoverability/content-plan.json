@@ -2,7 +2,7 @@
   "schema_version": 1,
   "mode": "local-content-plan",
   "network_used": false,
-  "documents_sampled": 11,
+  "documents_sampled": 13,
   "queries": [
     {
       "query": "Screen Studio reverse engineering",
@@ -21,7 +21,7 @@
         },
         {
           "path": "README.md",
-          "line": 3,
+          "line": 6,
           "matched_terms": [
             "screen",
             "studio"
@@ -30,7 +30,7 @@
         },
         {
           "path": "README.md",
-          "line": 9,
+          "line": 12,
           "matched_terms": [
             "screen",
             "studio"
@@ -65,7 +65,7 @@
         },
         {
           "path": "README.md",
-          "line": 4,
+          "line": 7,
           "matched_terms": [
             "electron"
           ],
@@ -81,7 +81,7 @@
       "evidence": [
         {
           "path": "README.md",
-          "line": 8,
+          "line": 11,
           "matched_terms": [
             "native",
             "recording",
@@ -91,7 +91,7 @@
         },
         {
           "path": "README.md",
-          "line": 16,
+          "line": 19,
           "matched_terms": [
             "native",
             "recording",
