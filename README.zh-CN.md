@@ -4,6 +4,10 @@
 Electron 与 macOS 原生辅助程序的开发者和 Agent。仓库包含原创检查工具、
 分级证据和复现方法；本地验证对象是原安装包的隔离副本，并非独立重写的软件。
 
+研究中使用 [REA](https://github.com/morluto/rea)（由 Agent 驱动的逆向分析工具）做聚焦的
+静态检查。本仓库的三个脚本不依赖 REA：前两个只用 Python 标准库，视频核验需要
+`ffprobe`/`ffmpeg`。
+
 [English README](README.md) · [证据与限制](docs/evidence.md)
 
 ## 已验证到哪里
@@ -36,6 +40,17 @@ python3 scripts/verify_export.py "/path/to/export.mp4"
 
 检查视频有效性不等于证明它由 Screen Studio 自身录制，也不证明视觉效果一致。
 请通过实际 UI 录制一次临时文件操作，保存原生项目，再进行编辑和导出。
+
+## 作为 Agent Skill 使用
+
+```bash
+git clone https://github.com/Royo-Qiao/screenstudio-rea-research.git \
+  ~/.claude/skills/screenstudio-rea-research
+```
+
+其他 Agent 可克隆到其 skills 目录，或直接指向克隆后的 `SKILL.md`。之后可让它检查应用包、
+统计原生项目事件或核验导出视频。[SKILL.md](SKILL.md) 保持只读流程：不安装、不激活、
+不修改，也不启动目标应用。
 
 ## 复现与边界
 
