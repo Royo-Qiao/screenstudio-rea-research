@@ -7,6 +7,11 @@ Read-only tools and an evidence-led case study of Screen Studio **3.7.3-4540** o
 Apple Silicon macOS. Inspect an Electron app bundle, count native recording events
 without exposing keystrokes, and verify that an exported video fully decodes.
 
+The analysis used [REA](https://github.com/morluto/rea), an agent-driven
+reverse-engineering tool, for focused static inspection. The three scripts here
+do not need REA: two use only the Python standard library, and export validation
+uses `ffprobe`/`ffmpeg`.
+
 This repository is for developers and agent operators investigating the boundary
 between an Electron editor and native recording/export helpers. It contains
 original research tools and documentation, rather than the Screen Studio app or
@@ -73,6 +78,18 @@ Example fields from an export result:
 The field names are the CLI schema; numbers illustrate the historical native test.
 The project and UI recording provenance must be checked separately.
 
+## Use as an agent skill
+
+```bash
+git clone https://github.com/Royo-Qiao/screenstudio-rea-research.git \
+  ~/.claude/skills/screenstudio-rea-research
+```
+
+For another agent, clone into its skills directory or point it at the cloned
+`SKILL.md`. Then ask it to inspect an app bundle, count events in a native project,
+or validate an export. [SKILL.md](SKILL.md) keeps the workflow read-only: it does
+not install, activate, patch or launch the target app.
+
 ## Research path
 
 1. [Architecture](docs/architecture.md): Electron resources, native recorder,
@@ -84,8 +101,6 @@ The project and UI recording provenance must be checked separately.
    human acceptance and untested behavior.
 4. [Agent instructions](SKILL.md): a bounded, privacy-conscious workflow suitable
    for a coding agent.
-5. [Discoverability review](docs/discoverability/README.md): query-to-document
-   evidence and an unpublished experience-based article draft.
 
 The public evidence includes curated REA
 [Electron fuse](evidence/rea-fuses-summary.json) and
